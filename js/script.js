@@ -29,6 +29,11 @@ for (i=0 ; i<=100 ; ++i) {
   // ma per i multipli di 3 stampi “Fizz” al posto del numero e per i multipli di 5 stampi Buzz.
   if(i % 3 === 0 && i % 5 === 0) {
     console.log( `FizzBuzz`)
-
-
+          //punto 3
+        //ma per i multipli di 3 stampi “Fizz”
+  } else if(i % 3 === 0) {
+    
+    console.log(`Fizz`)
+    
+  }
 }
