@@ -34,8 +34,8 @@ for (i=0 ; i<=100 ; ++i) {
   } else if(i % 3 === 0) {
     
     console.log(`Fizz`)
-    
-  }else {
-    console.log(i)
+      //punto 4 per i multipli di 5 stampi Buzz
+  }else if(i % 5 === 0)  {
+    console.log(`Buzz`)
   }
 }
